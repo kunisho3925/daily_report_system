@@ -33,7 +33,7 @@ public class ReportsIndexServlet extends HttpServlet {
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        EntityManager em = DBUtil.createEntityManager();
+    	EntityManager em = DBUtil.createEntityManager();
 
         int page;
         try{

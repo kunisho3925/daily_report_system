@@ -18,11 +18,8 @@ body {
 }
 
 h1 {
-    width: 94%;
-    padding-top: 17px;
-    padding-left: 3%;
-    font-size: 24px;
-    color: #eeeeee;
+   font-size: 24px;
+   display: inline;
 }
 
 h2 {
@@ -154,4 +151,14 @@ pre{
 
 h3{
 	font-size: larger;
+}
+
+#flush_error {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
 }

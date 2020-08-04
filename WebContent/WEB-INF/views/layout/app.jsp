@@ -26,7 +26,7 @@
                         <a href="<c:url value='/logout' />">ログアウト</a>
                     </div>
                 </c:if>
-            </div>
+           </div>
             <div id="content">
                 ${param.content}
             </div>
