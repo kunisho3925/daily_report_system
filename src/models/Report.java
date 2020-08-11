@@ -61,6 +61,12 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+    @Column(name ="startWorkTime", nullable = false)
+    private String startWorkTime;
+
+    @Column(name ="endWorkTime", nullable = false)
+	private String endWorkTime;
+
     public Integer getId() {
         return id;
     }
@@ -115,5 +121,21 @@ public class Report {
 
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
+    }
+
+    public String getStartWorkTime(){
+    	return startWorkTime;
+    }
+
+    public void setStartWorkTime(String startWorkTime){
+    	this.startWorkTime = startWorkTime;
+    }
+
+    public String getEndWorkTime(){
+    	return endWorkTime;
+    }
+
+    public void setEndWorkTime(String endWorkTime){
+    	this.endWorkTime = endWorkTime;
     }
 }
